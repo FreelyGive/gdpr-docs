@@ -1,4 +1,4 @@
-# GDPR Module Documentation
+# GDPR Module DOCUMENTATION!!!!!!
 
 This module aims to help site admins follow the guidelines and legislation set by the EU.
 
