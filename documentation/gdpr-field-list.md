@@ -4,7 +4,48 @@ The GDPR field list page lists all of the fields on Drupal that can be configure
 
 ## Configure a field for GDPR
 
-To configure or edit a field, first locate the field that you would like to configure, then click ‘edit’ on the right-hand-side of the table. Next, click the checkbox next to ‘This is a GDPR field’ if it is not already checked at which point you will be presented with 3 fields that you can edit: 
+To configure or edit a field, first locate the field that you would like to configure, you can make use of the filters and sorting options to narrow down on the field that you are looking for.
+
+![Field list filters](../.gitbook/assets/field-list-filters.png)
+
+There are three main types of fields that will be configured:
+
+### General fields
+
+* GDPR Field - Specify whether or not this is a GDPR field
+* Field is owner
+* Do not follow this relationship
+* Right to access
+* SARs filename
+* Right to be forgotten
+* \(If Right to be forgotten is anonymise\) Sanitizer to use
+* Notes
+
+![](../.gitbook/assets/field-type-general-field%20%281%29.png)
+
+### Entity reference fields
+
+Field is owner
+
+Do not follow this relationship
+
+SARs filename
+
+### primary\_keys
+
+For every entity, the primary key is the entity id field. If this is removed as part of a RTF request, the whole entity will be deleted, not just the field.
+
+RTF = Delete entire entity. 
+
+Then click ‘edit’ on the right-hand-side of the table. 
+
+
+
+
+
+
+
+Next, click the checkbox next to ‘This is a GDPR field’ if it is not already checked at which point you will be presented with 3 fields that you can edit: 
 
 * Right to access
   * Choose from: Not included, Maybe, Included
@@ -21,4 +62,12 @@ To configure or edit a field, first locate the field that you would like to conf
   * Each sanitiser is used for different fields depending on the kind of field you are dealing with.
 * Notes
   * A text field to add notes such as: This is for your own personal audit trail, you can put a brief explanation for why you have chosen to use these settings for the benefit of the DPO and any future auditors
+
+  
+  
+\*\*Certain computed properties and required fields\*\*  
+Some fields can not be deleted because that would cause issues. Can still be anonymised if necessary.  
+\* \`This field cannot be removed, only anonymised.\`   
+  
+
 
