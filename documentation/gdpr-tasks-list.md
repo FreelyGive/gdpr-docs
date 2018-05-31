@@ -2,7 +2,7 @@
 
 ## Task List
 
-The task list page lists all of the tasks where either a user or staff member has made a request. Requested tasks can be in the form of a ‘SARs Request’ or a ‘Removal Request’. In the list you can see the requested tasks and a list of the closed tasks. Just looking at the requested tasks, each task has the following properties:
+The task list page lists all of the tasks where either a user or staff member has made a request. Requested tasks are usually in the form of a ‘SARs Request’ or a ‘Removal Request’. In the list you can see the requested tasks and a list of the completed tasks. Just looking at the requested tasks, each task has the following properties:
 
 * Task ID: A unique identifier
 * Name: The name of the tasks

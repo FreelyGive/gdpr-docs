@@ -13,4 +13,5 @@
   * [Subject Access Request](documentation/subject-access-request.md)
   * [Data Removal](documentation/data-removal.md)
   * [Agreements](documentation/agreements.md)
+* [Task Emails](task-emails.md)
 
