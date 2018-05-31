@@ -9,5 +9,5 @@ All three email types have the same fields:
 * Body - This text area field can be edited to change the body of the email 
 * Email from address - This text field can be edited to change the email from address, or it can be left blank to use the site wide email address.
 
-![](.gitbook/assets/task-emails.png)
+![](../.gitbook/assets/task-emails.png)
 

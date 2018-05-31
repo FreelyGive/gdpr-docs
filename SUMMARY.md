@@ -9,9 +9,9 @@
   * [Summary](documentation/summary.md)
   * [Field List](documentation/gdpr-field-list.md)
   * [Tasks](documentation/gdpr-tasks-list.md)
+  * [Task Emails](documentation/task-emails.md)
   * [Viewing Stored Data](documentation/viewing-stored-data.md)
   * [Subject Access Request](documentation/subject-access-request.md)
   * [Data Removal](documentation/data-removal.md)
   * [Agreements](documentation/agreements.md)
-* [Task Emails](task-emails.md)
 
