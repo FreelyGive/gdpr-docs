@@ -11,7 +11,7 @@ This documentation provides a list of the features available within the GDPR mod
 The GDPR module can be found in Drupals projects. To install using composer, run the following command:
 
 ```bash
-composer require drupal/modulename
+composer require drupal/gdpr
 ```
 
 from the webroot directory, not inside the core directory, to install the module with all it's Composer dependencies.
